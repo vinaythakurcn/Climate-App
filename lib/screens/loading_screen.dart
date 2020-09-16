@@ -5,6 +5,11 @@ import '../services/weather.dart';
 
 import './location_screen.dart';
 
+
+/**
+ * This screen shows the loading and request to access user's current location 
+ * and loads the wearther data usign API
+ */
 class LoadingScreen extends StatefulWidget {
   @override
   _LoadingScreenState createState() => _LoadingScreenState();
